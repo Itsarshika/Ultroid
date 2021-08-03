@@ -1,0 +1,15 @@
+---
+application:
+  name: "ultroid"
+  project: "Arshikasbot"
+  organization: "QoveryCommunity"
+databases:
+- type: "REDIS"
+  name: "Arshikasbot"
+  version: "6"
+routers:
+- name: "main-ultroid"
+  routes:
+  - application_name: "ultroid"
+    paths:
+    - "/*"
